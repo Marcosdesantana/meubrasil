@@ -1,0 +1,84 @@
+@font-face{
+    font-family: nova;
+    src: url(Saira-VariableFont_wdth\,wght.ttf) format(truetype);
+}
+
+@font-face{
+    font-family: novaser;
+    src: url(RobotoSlab-VariableFont_wght.ttf) format(truetype);
+}
+
+:root{
+    --fontnova:nova;
+    --fontnovaser:novaser;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgba(1, 97, 65, 0.856);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: var(--fontnovaser);
+    font-size: 2vw;
+}
+
+
+header > p{
+    text-align: center;
+}
+
+main{
+    font-family: var(--fontnova), sans-serif;
+    line-height: 1.8em;
+}
+
+p{
+    padding: 30px;
+    text-align: justify;
+}
+section{
+    
+}
+
+section{
+    max-width: 100vw;
+}
+
+.semfundo{
+    background-color: rgba(4, 243, 95, 0.315);
+}
+
+.fundofoto{
+    background-color: #08010a60;
+    color:white;
+
+}
+
+#foto1{
+    background-image: url(pexels-frieda-friedman-2147905037-32851554.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    
+}
+
+#foto2{
+    background-image: url(pexels-miroalt-176400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+footer{
+    text-align: center;
+     background-color: rgba(1, 97, 65, 0.856);
+     padding-top: 15px;
+     padding-bottom: 15px;
+}
